@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PERSONAL PORTFOLIO</title>
+    <link rel="stylesheet" href="styless.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+
+
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
+</head>
+
+<body>
+    <div id="main-container">
+        <div class="header">
+
+            <div class="container">
+                <nav>
+                    <ul>
+                        <li class="active-link"><a href="#" >Home</a></li>
+                        <li><a href="#about">About Me</a></li>
+                        <!-- <li><a href="#Education">Education</a></li>
+                        <li><a href="#TechnicalSkills">Technical Skills</a></li> -->
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact Me</a></li>
+                        <!-- <li><a href="#section3">Experience</a></li> -->
+                        <!-- <li><a href="#Certification">Certification</a></li> -->
+                        <!-- <li><a href="#Achievements">Achievements</a></li> -->
+                    </ul>
+                </nav>
+                <div class="header-text">
+                    <h2>Hii, I'm <span class="text-typing">PRAVEEN</span></h2><br>
+                    <h3> FULL STACK WEB DEVELOPER</h3>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!--......... About .......... -->
+
+
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images\praveenKanyakumari.jpeg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1>About Me</h1>
+                        <p>To build a career with a leading corporate having dedicated professionalism, which would help
+                            me
+                            to explore myself by realizing my latent skills and also to work as a team player in a
+                            challenging environment.
+                        </p>
+                        <div class="tab-titles">
+                            <div class="tab-links">
+                                <!-- <span class="tab-link">Skills</span>
+                        <span class="tab-link">Education</span>
+                        <span class="tab-link">Experience</span> -->
+                                <p class="tab-link active-link" onclick="showContent('skills')">Skills</p>
+                                <p class="tab-link" onclick="showContent('education')">Education</p>
+                                <p class="tab-link" onclick="showContent('certification')">Certification</p>
+                                <p class="tab-link" onclick="showContent('experience')">Experience</p>
+                                <p class="tab-link" onclick="showContent('achievements')">Achievements</p>
+                            </div>
+                            <div class="tab-contents active-content" id="skills">
+                                <ul>
+                                    <li><span>FRONTEND: </span>HTML, CSS, Bootstrap, Javascript</li>
+                                    <li><span>BACKEND: </span>Java</li>
+                                    <li><span>DATABASE: </span>MySQL</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="education">
+                                <ul>
+                                    <li><span>BACHELOR OF MECHANICAL ENGINEERING </span> ==><span> 2022</span><br>
+                                        <p>SRM TRP ENGINEERING COLLEGE</p>
+                                        CGPA: 8.2
+                                    </li>
+                                    <li><span>HIGHER SECONDARY SCHOOL CERTIFICATE </span> ==><span> 2018</span>
+                                        <p>INFANT JESUS MATRIC HIGHER SECONDARY SCHOOL</p>
+                                        PERCENTAGE: 70.8
+                                    </li>
+                                    <li>
+                                        <span>SECONDARY SCHOOL LEAVING CERTIFICATE </span>==><span> 2016</span>
+                                        <p>INFANT JESUS MATRIC HIGHER SECONDARY SCHOOL</p>
+                                        PERCENTAGE: 90.2
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents " id="experience">
+                                <ul>
+                                    <li>
+                                        I completed a comprehensive 6-month training program in Full Stack Java 
+                                        development at Besant
+                                        Technologies, acquiring valuable hands-on experience and proficiency in the
+                                        software field.
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents " id="certification">
+                                <ul>
+                                    <li><span>CERTIFICATION NAME: </span> Full Stack Java Course</li>
+                                    <li><span>TRAINING PROVIDER: </span> Besant Technologies</li>
+                                    <li><span>COURSE DURATION: </span>15.05.2023 to 20.11.2023</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents " id="achievements">
+                                <ul>
+                                    <!-- <li><span>Zonal Tournaments Handball - </span>Winner</li>
+                            <li><span>State Level Handball Championship - </span>Winner</li> -->
+                                    <li>Zonal Tournaments Handball - <span>Winner</span></li>
+                                    <li>State Level Handball Championship - <span>Winner</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- .........Projects......... -->
+
+        <div id="projects">
+            <diV class="container">
+                <h1>PROJECTS</h1>
+
+                <div id="project-div">
+                    <div class="project-container">
+                        <h3>EDUCATIONAL WEBSITE</h3>
+                        <div class="project-subcontainer">
+                            <p><span>DESCRIPTION: </span>Built a Full Stack educational platform with user-registration,
+                                course
+                                browsing and interactive web pages.
+                            </p>
+                            <p><span>RESPONSIBILITIES: </span><br>&#x2022; Implemented user registration and database
+                                handling using Java Servlets.<br>
+                                &#x2022; Developed responsive web pages for categories, courses, and user interactions.
+                            </p>
+                            <p><span>TECHNOLOGIES: </span>Java Servlets, MySQL, HTML, CSS, JavaScript.</p>
+                            <p><span>LINK: </span> https://github.com/Praveensiva2001/EduAppp.git</p>
+                        </div>
+                    </div>
+                    <div id="projects-border"></div>
+                    <div class="project-container">
+                        <h3>ONLINE GROCERY WEBSITE</h3>
+                        <div class="project-subcontainer">
+                            <p><span>DESCRIPTION: </span>Developed an engaging online grocery store utilizing HTML, CSS,
+                                Bootstrap, and JavaScript.
+                                Prioritized user interactivity by implementing JavaScript for interactive elements and
+                                ensuring an intuitive
+                                user interface. Emphasized a user-friendly design for an enhanced shopping experience.
+                            </p>
+                            <p><span>RESPONSIBILITIES: </span><br>&#x2022; Utilized HTML, CSS, Bootstrap, and JavaScript
+                                to craft an engaging interface.<br>
+                                &#x2022; Implemented JavaScript for interactive features and an intuitive user
+                                experience.
+                            </p>
+                            <p><span>TECHNOLOGIES: </span>HTML, CSS, Bootstrap, JavaScript.</p>
+                            <p><span>LINK: </span> grocerywebsitee.netlify.app</p>
+                        </div>
+                    </div>
+                    <div id="projects-border"></div>
+                    <div class="project-container">
+                        <h3>PERSONAL PORTFOLIO</h3>
+                        <div class="project-subcontainer">
+                            <p><span>DESCRIPTION: </span>Developed a personal portfolio website showcasing skills,
+                                projects, and contact information. Designed an intuitive layout for easy navigation and
+                                information accessibility.
+                            </p>
+                            <p><span>RESPONSIBILITIES: </span><br>&#x2022; Implemented responsive design using HTML5,
+                                CSS3, and media queries for various devices.<br>
+                                &#x2022; Created interactive sections using JavaScript for smooth user experience.<br>
+                            </p>
+                            <p><span>TECHNOLOGIES: </span>HTML5, CSS3, JavaScript.</p>
+                        </div>
+                    </div>
+                    <div id="projects-border"></div>
+                    <div class="project-container">
+                        <h3>BUS RESERVATION SYSTEM WITH JDBC</h3>
+                        <div class="project-subcontainer">
+                            <p><span>DESCRIPTION: </span>Developed a comprehensive bus reservation system enabling users
+                                to efficiently search for
+                                and reserve bus tickets. Integrated JDBC to facilitate database connectivity, ensuring
+                                seamless information storage
+                                and retrieval.
+                            </p>
+                            <p><span>RESPONSIBILITIES: </span><br>&#x2022; Implemented JDBC for robust database
+                                connectivity.<br>
+                                &#x2022; Designed an intuitive user interface for easy ticket reservations.
+                            </p>
+                            <p><span>TECHNOLOGIES: </span>JDBC, Database Management, User Interface Design.</p>
+                        </div>
+                    </div>
+                    <div id="projects-border"></div>
+                    <div class="project-container">
+                        <h3>ATM SIMULATOR</h3>
+                        <div class="project-subcontainer">
+                            <p><span>DESCRIPTION: </span>Developed a Java-based ATM simulator mimicking core banking
+                                actions: balance checks, deposits, and withdrawals.
+                            </p>
+                            <p><span>RESPONSIBILITIES: </span><br>&#x2022; Implemented PIN-based user authentication for
+                                system access.<br>
+                                &#x2022; Enabled account balance queries, deposits, and withdrawal functions with limit
+                                enforcement.<br>
+                                &#x2022; Integrated error handling for insufficient funds during withdrawals.
+                            </p>
+                            <p><span>TECHNOLOGIES: </span>Java SE</p>
+                        </div>
+                    </div>
+                    <!-- <div id="projects-border"></div> -->
+                </div>
+            </diV>
+        </div>
+
+        <!-- ...........contact.............. -->
+
+
+
+
+        <div id="contact">
+            <div class="container">
+
+                <div class="row">
+                    <div class="contact-left">
+                        <h1>CONTACT ME</h1><br>
+                        <br><br>
+                        <p><i class="fa fa-envelope-o"> </i> praveenkumarsiva2001@gmail.com</p><br>
+                        <p><i class="fa fa-phone"> </i> 9629449395, 9344082998</p><br>
+                        <div class="all-icons">
+                            <a href="#" class="fa fa-facebook"></a>
+                            <a href="#" class="fa fa-linkedin"></a>
+                            <a href="#" class="fa fa-instagram"></a>
+                        </div><br>
+                        <a href="images/PraveenKumarResume.pdf" download><button class="btn btn2">Download Resume</button></a>
+                    </div>
+                    <div class="contact-right">
+                        <form>
+                            <input type="text" name="Name" placeholder="Enter Your Name" required>
+                            <input type="email" name="email" placeholder="Enter Your Email">
+                            <textarea name="message" rows="6" placeholder="Enter Your Message"></textarea>
+                            <button type="submit" class="btn btn2">SUBMIT</button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="copyright">
+            <p>@copyright.Powered by Praveen</p>
+        </div>
+
+
+        <!-- <script>
+    function showContent(tabname) {
+    var tabcontents = document.querySelectorAll('.tab-contents');
+
+    tabcontents.forEach(function (tabcontent) {
+        if (tabcontent.id === tabname) {
+            tabcontent.style.display = 'block';
+        } else {
+            tabcontent.style.display = 'none';
+        }
+    });
+}
+
+
+</script> -->
+
+        <script>
+            function showContent(tabname) {
+                var tabcontents = document.querySelectorAll('.tab-contents');
+                var tablinks = document.querySelectorAll('.tab-links .tab-link');
+
+                tabcontents.forEach(function (tabcontent) {
+                    if (tabcontent.id === tabname) {
+                        tabcontent.style.display = 'block';
+                    } else {
+                        tabcontent.style.display = 'none';
+                    }
+                });
+
+                tablinks.forEach(function (tablink) {
+                    if (tablink.getAttribute('onclick').includes(tabname)) {
+                        tablink.classList.add('active-link');
+                    } else {
+                        tablink.classList.remove('active-link');
+                    }
+                });
+            }
+        </script>
+
+</body>
+
+</html>
